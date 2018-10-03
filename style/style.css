@@ -15,3 +15,24 @@
 footer {
   height: 1px;
   background-color: grey; }
+
+.formulaire {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 150px;
+  background-color: brown;
+  font-weight: bold; }
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 400px;
+  margin-left: -150px;
+  margin-top: -200px;
+  background-color: brown;
+  font-weight: bold; }
+
+.bodycontact {
+  background-color: brown; }
