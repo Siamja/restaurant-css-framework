@@ -1,0 +1,26 @@
+$maj : uppercase;
+$color1 : brown;
+
+.jumbotron {
+    text-transform: $maj;
+    text-align: center;
+    margin: 0;
+    background-color: #F2984B;
+}
+
+.rest {
+    background-color:$color1;
+    margin : 0;
+
+.design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+footer {
+   height: 1px;
+   background-color : grey;
+}

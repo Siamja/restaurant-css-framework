@@ -1,0 +1,17 @@
+.jumbotron {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  background-color: #F2984B; }
+
+.rest {
+  background-color: brown;
+  margin: 0; }
+  .rest .design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+footer {
+  height: 1px;
+  background-color: grey; }
