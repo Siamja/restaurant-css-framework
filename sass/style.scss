@@ -118,19 +118,21 @@ footer {
         width: 100%; }
   
   .pagination1 .row nav ul li .page-link {
-    background-color: #fdd000;
+    background-color: lightsalmon;
     color: black;
-    border-color: #fdd000;
+    border-color: $color1;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .pagination1 .row nav ul li .page-link:hover {
       background-color: black;
-      color: #fdd000;
+      color : $color1;
       -webkit-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease; }
   
   .pagination1 .row nav ul li .page-link.active {
     background-color: black;
-    color: #fdd000; }
+    color:$color1; }
+
+    
