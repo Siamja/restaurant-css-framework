@@ -91,6 +91,46 @@ footer {
     font-size: 40px;
 }
 
-.bodyphoto {
+.bodyphotos {
     background-color: $color1;
 }
+
+.bodyrestaurants {
+    background-color: $color1
+}
+
+.col-12 {
+    text-transform: $maj;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.gallery {
+    margin: 50px auto; }
+    @media (max-width: 768px) {
+      .gallery {
+        margin: 50px auto 15px auto; } }
+    .gallery .row div .row div {
+      margin-bottom: 30px; }
+      .gallery .row div .row div img {
+        display: block;
+        width: 100%; }
+  
+  .pagination1 .row nav ul li .page-link {
+    background-color: #fdd000;
+    color: black;
+    border-color: #fdd000;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .pagination1 .row nav ul li .page-link:hover {
+      background-color: black;
+      color: #fdd000;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+  
+  .pagination1 .row nav ul li .page-link.active {
+    background-color: black;
+    color: #fdd000; }
