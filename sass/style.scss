@@ -5,25 +5,29 @@ $color1 : brown;
     text-transform: $maj;
     text-align: center;
     margin: 0;
-    background-color: #F2984B;
+    background-image: url("https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2Fe098f173-1137-4cc2-8045-a72722a928f0.2Ejpeg/748x372/quality/80/crop-from/center/hamburger-maison-de-a-a-z.jpeg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .rest {
-    background-color:$color1;
-    margin : 0;
+    background-color: brown;
+    margin: 0;
+ }
 
-.design {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-}
+    .rest .design {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+
+
 
 .formulaire {
     text-transform: $maj;
     text-align:center;
-    margin-top:150px;;
-    background-color: $color1;
+    margin-top:150px;
+    color: white;
     font-weight:bold;
 }
 
@@ -35,40 +39,41 @@ $color1 : brown;
    height:400px;
    margin-left:-150px; 
    margin-top:-200px;
-   background-color: $color1;
    font-weight:bold;
+   color : white;
 }
 
 .bodycontact {
-    background-color: $color1;
+    background-image: url("https://us.moodmedia.com/wp-content/uploads/2016/10/background-burger.jpg");
+    background-size: 100%;
 }
 
 .bodycarte {
-    background-color: $color1;
+    background-image: url("https://us.moodmedia.com/wp-content/uploads/2016/10/background-burger.jpg");
+    background-size: 120%;
 }
 
 .card-body {
     background-color: grey;
 }
 
+.card1 {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px; 
+}
+
+
 .card2 {
-    position:absolute;
-    top:50%;
-    left:50%;
-    width:300px;
-    height:400px;
-    margin-left:-150px; 
-    margin-top:-200px;   
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;  
 }
 
 .card3 {
-    position:absolute;
-   top:80%;
-   left:80%;
-   width:150px;
-   height:400px;
-   margin-left:80px; 
-   margin-top:-170px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
 
 .menu__page {
@@ -76,6 +81,7 @@ $color1 : brown;
     font-weight: bold;
     text-align: center;
     font-size: 40px;
+    color: white;
 }
 
 .title__pictures {
@@ -86,11 +92,13 @@ $color1 : brown;
 }
 
 .bodyphotos {
-    background-color: $color1;
+    background-image: url("https://us.moodmedia.com/wp-content/uploads/2016/10/background-burger.jpg");
+    background-size: 100%;
 }
 
 .bodyrestaurants {
-    background-color: $color1
+    background-image: url("https://us.moodmedia.com/wp-content/uploads/2016/10/background-burger.jpg");
+    background-size: 140%;
 }
 
 .col-12 {
@@ -98,6 +106,7 @@ $color1 : brown;
     font-weight: bold;
     text-align: center;
     font-size: 40px;
+    color : white;
 }
 
 .gallery {
@@ -134,12 +143,14 @@ $color1 : brown;
     font-weight: bold;
     text-align: center;
     font-size: 40px;
+    color : white;
     }
     
 .resto__1 {
 
     text-align: center;
     font-size: 28px;
+    color : white;
 }
 
 .map__1 {
@@ -149,27 +160,32 @@ $color1 : brown;
 .adress__1 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .town__1 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .tel__1 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .mail__1 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .resto__2 {
 
     text-align: center;
     font-size: 28px;
+    color : white;
 }
 
 .map__2 {
@@ -179,31 +195,37 @@ $color1 : brown;
 .adress__2 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .town__2 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .tel__2 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .mail__2 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .hour__1 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 .hour__2 {
     text-align: center;
     font-size: 20px;
+    color : white;
 }
 
 
