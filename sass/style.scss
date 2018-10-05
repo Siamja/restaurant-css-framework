@@ -19,12 +19,6 @@ $color1 : brown;
 }
 }
 
-
-footer {
-   height: 1px;
-   background-color : grey;
-}
-
 .formulaire {
     text-transform: $maj;
     text-align:center;
@@ -73,8 +67,8 @@ footer {
    left:80%;
    width:150px;
    height:400px;
-   margin-left:-75px; 
-   margin-top:-200px;
+   margin-left:80px; 
+   margin-top:-170px;
 }
 
 .menu__page {
@@ -135,4 +129,81 @@ footer {
     background-color: black;
     color:$color1; }
 
+    .resto__p {
+    text-transform: $maj;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    }
     
+.resto__1 {
+
+    text-align: center;
+    font-size: 28px;
+}
+
+.map__1 {
+    text-align : center;
+}
+
+.adress__1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.town__1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tel__1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mail__1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.resto__2 {
+
+    text-align: center;
+    font-size: 28px;
+}
+
+.map__2 {
+    text-align : center;
+}
+
+.adress__2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.town__2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tel__2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mail__2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.hour__1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.hour__2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+
